@@ -1,0 +1,36 @@
+.title-header {
+    font-size: 70px;
+    color: #C0AFD8;
+    text-align: center;
+}
+
+.paragraph-header {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: baseline;
+}
+
+.will-pic {
+    border-radius: 30%;
+    width: 25rem;
+    height: 100%;
+    opacity: 90%;
+    align-items: 'right';
+    float: right;
+    box-shadow: 0 0 15px 15px #ab8bd9;
+}
+
+.button-resume {
+    color: whitesmoke;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+}
+
+/* ["2A3144","6D599C","7B7893","121B24","C0AFD8"] */

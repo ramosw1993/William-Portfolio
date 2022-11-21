@@ -1,0 +1,13 @@
+.nav-bar {
+    background-color: #6D599C;
+    color: whitesmoke;
+}
+
+.nav-pills .nav-link.active { 
+    background-color: #121B24; 
+    color: whitesmoke;
+}
+
+.nav-item .nav-link {
+    color: whitesmoke;
+}
