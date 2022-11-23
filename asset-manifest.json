@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.0fc7f475.css",
-    "main.js": "/my-app/static/js/main.eacc8958.js",
-    "static/media/horiseon.png": "/my-app/static/media/horiseon.bf3bbad6e01981b9751f.png",
-    "static/media/musichub.png": "/my-app/static/media/musichub.cc677900756235e4716b.png",
-    "static/media/resume.jpg": "/my-app/static/media/resume.7695bb35647999faba90.jpg",
-    "static/media/Screenshot 2022-11-22 at 9.07.15 AM.png": "/my-app/static/media/Screenshot 2022-11-22 at 9.07.15 AM.a93406a0a71376b424b4.png",
-    "static/media/IMG_3937 .jpg": "/my-app/static/media/IMG_3937 .e0c17881f38fec2e1375.jpg",
-    "static/media/team-profile-gen.png": "/my-app/static/media/team-profile-gen.d2bad9d39a9dacdb6d8d.png",
-    "static/media/cntower.jpg": "/my-app/static/media/cntower.d76adb853f35cca47190.jpg",
-    "static/media/note-taker.png": "/my-app/static/media/note-taker.485e190919ae55c97e74.png",
-    "static/media/coming-soon.jpg": "/my-app/static/media/coming-soon.7d517cf6967dc1809677.jpg",
-    "index.html": "/my-app/index.html",
-    "main.0fc7f475.css.map": "/my-app/static/css/main.0fc7f475.css.map",
-    "main.eacc8958.js.map": "/my-app/static/js/main.eacc8958.js.map"
+    "main.css": "/William-Portfolio/static/css/main.03bd18e0.css",
+    "main.js": "/William-Portfolio/static/js/main.bce86289.js",
+    "static/media/horiseon.png": "/William-Portfolio/static/media/horiseon.bf3bbad6e01981b9751f.png",
+    "static/media/musichub.png": "/William-Portfolio/static/media/musichub.cc677900756235e4716b.png",
+    "static/media/resume.jpg": "/William-Portfolio/static/media/resume.7695bb35647999faba90.jpg",
+    "static/media/Screenshot 2022-11-22 at 9.07.15 AM.png": "/William-Portfolio/static/media/Screenshot 2022-11-22 at 9.07.15 AM.a93406a0a71376b424b4.png",
+    "static/media/IMG_3937 .jpg": "/William-Portfolio/static/media/IMG_3937 .e0c17881f38fec2e1375.jpg",
+    "static/media/team-profile-gen.png": "/William-Portfolio/static/media/team-profile-gen.d2bad9d39a9dacdb6d8d.png",
+    "static/media/cntower.jpg": "/William-Portfolio/static/media/cntower.d76adb853f35cca47190.jpg",
+    "static/media/note-taker.png": "/William-Portfolio/static/media/note-taker.485e190919ae55c97e74.png",
+    "static/media/coming-soon.jpg": "/William-Portfolio/static/media/coming-soon.7d517cf6967dc1809677.jpg",
+    "index.html": "/William-Portfolio/index.html",
+    "main.03bd18e0.css.map": "/William-Portfolio/static/css/main.03bd18e0.css.map",
+    "main.bce86289.js.map": "/William-Portfolio/static/js/main.bce86289.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fc7f475.css",
-    "static/js/main.eacc8958.js"
+    "static/css/main.03bd18e0.css",
+    "static/js/main.bce86289.js"
   ]
 }
