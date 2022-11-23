@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/William-Portfolio/static/css/main.3ce9e4e4.css",
-    "main.js": "/William-Portfolio/static/js/main.bce86289.js",
+    "main.js": "/William-Portfolio/static/js/main.fa6cbc21.js",
     "static/media/horiseon.png": "/William-Portfolio/static/media/horiseon.bf3bbad6e01981b9751f.png",
     "static/media/musichub.png": "/William-Portfolio/static/media/musichub.cc677900756235e4716b.png",
     "static/media/resume.jpg": "/William-Portfolio/static/media/resume.7695bb35647999faba90.jpg",
@@ -13,10 +13,10 @@
     "static/media/coming-soon.jpg": "/William-Portfolio/static/media/coming-soon.7d517cf6967dc1809677.jpg",
     "index.html": "/William-Portfolio/index.html",
     "main.3ce9e4e4.css.map": "/William-Portfolio/static/css/main.3ce9e4e4.css.map",
-    "main.bce86289.js.map": "/William-Portfolio/static/js/main.bce86289.js.map"
+    "main.fa6cbc21.js.map": "/William-Portfolio/static/js/main.fa6cbc21.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce9e4e4.css",
-    "static/js/main.bce86289.js"
+    "static/js/main.fa6cbc21.js"
   ]
 }
