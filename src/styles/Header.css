@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
 .paragraph-header {
     justify-content: center;
     align-items: center;
@@ -13,24 +18,19 @@
     min-height: 10em;
     display: table-cell;
     vertical-align: baseline;
+    float: left;
 }
 
 .will-pic {
     border-radius: 30%;
-    width: 25rem;
+    width: 25%;
     height: 100%;
     opacity: 90%;
     align-items: 'right';
-    float: right;
     box-shadow: 0 0 15px 15px #ab8bd9;
-}
+    float: right;
 
-.button-resume {
-    color: whitesmoke;
-    justify-self: center;
-    justify-content: center;
-    justify-items: center;
-    align-self: center;
+
 }
 
 /* ["2A3144","6D599C","7B7893","121B24","C0AFD8"] */

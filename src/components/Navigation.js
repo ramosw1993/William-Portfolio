@@ -3,28 +3,57 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 import '../styles/Navigation.css';
 
-function Navigation() {
+export default function Navigation({ currentPage, handlePageChange }) {
+  const linkStyle = { border: '1px #6D599C', padding: '5px' };
+
   return (
-    <div className="nav-bar">
-      <Nav fill variant="pills" className="justify-content-end" defaultActiveKey="/home">
-        <Nav.Item className="nav-item">
-          <Nav.Link href="/home">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">About Me</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Portfolio</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Contact</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Resume</Nav.Link>
-        </Nav.Item>
-      </Nav>
-    </div>
+    <nav className="main-header-menu">
+      <section
+        style={{
+          display: 'flex',
+          fontFamily: 'helvetica',
+          flexDirection: 'row',
+          alignItems: 'flex-start',
+          justifyContent: 'space-between',
+        }}
+      >
+        <div style={linkStyle}>
+          <a href="#header"
+                onClick={() => handlePageChange("Header")}
+                className={
+                  currentPage === "Header"
+                    ? "nav-link active btn btn-primary text-reset"
+                    : "nav-link btn btn-outline-primary"
+                }>About Me</a>
+        </div>
+        <div style={linkStyle}>
+          <a  href="#project"
+                onClick={() => handlePageChange("Project")}
+                className={
+                  currentPage === "Project"
+                    ? "nav-link active btn btn-primary text-reset"
+                    : "nav-link btn btn-outline-primary"
+                }>Project</a>
+        </div>
+        <div style={linkStyle}>
+          <a  href="#contact"
+                onClick={() => handlePageChange("Contact")}
+                className={
+                  currentPage === "Contact"
+                    ? "nav-link active btn btn-primary text-reset"
+                    : "nav-link btn btn-outline-primary"
+                }>Contact</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="#resume"
+                onClick={() => handlePageChange("Resume")}
+                className={
+                  currentPage === "Resume"
+                    ? "nav-link active btn btn-primary text-reset"
+                    : "nav-link btn btn-outline-primary"
+                }>Resume</a>
+        </div>
+      </section>
+    </nav>
   );
 }
-
-export default Navigation;
