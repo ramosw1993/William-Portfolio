@@ -68,17 +68,17 @@ function Project() {
         <Row className="cards">
           <Col md>
             <a href="https://ramosw1993.github.io/Challenge-Horiseon/">
-            <img src={horiseon} alt="Horiseon refactor" />
+              <img src={horiseon} alt="Horiseon refactor" />
             </a>
           </Col>
           <Col md>
-          <a href="https://ramosw1993.github.io/New-Note-Taker/">
-            <img src={noteTaker} alt="Note taker" />
+            <a href="https://ramosw1993.github.io/New-Note-Taker/">
+              <img src={noteTaker} alt="Note taker" />
             </a>
           </Col>
           <Col md>
-          <a href="https://github.com/ramosw1993/Team-Profile-Generator">
-            <img src={teamProfile} alt="Team profile" />
+            <a href="https://github.com/ramosw1993/Team-Profile-Generator">
+              <img src={teamProfile} alt="Team profile" />
             </a>
           </Col>
         </Row>
