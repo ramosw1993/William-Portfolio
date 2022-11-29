@@ -58,8 +58,8 @@ function Project() {
                 />
                 </a>
                 <Carousel.Caption>
-                  <h5>Project 3 coming soon</h5>
-                  <p>Will be available starting December.</p>
+                  <h5>Project 3 Will Be Hangry</h5>
+                  <p>Burger restaurant with a online ordering service.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
