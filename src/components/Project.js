@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import "../styles/Project.css";
 import musicImg from "../assets/musichub.png";
 import jobImg from "../assets/Screenshot 2022-11-22 at 9.07.15 AM.png";
-import soonImg from "../assets/coming-soon.jpg";
+import burger from "../assets/Screenshot 2022-11-28 at 8.35.02 PM.png";
 import horiseon from "../assets/horiseon.png";
 import noteTaker from "../assets/note-taker.png";
 import teamProfile from "../assets/team-profile-gen.png";
@@ -50,11 +50,13 @@ function Project() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
+              <a href="https://will-b-hangry.herokuapp.com/">
                 <img
                   className="d-block w-100"
-                  src={soonImg}
-                  alt="Coming soon"
+                  src={burger}
+                  alt="burger"
                 />
+                </a>
                 <Carousel.Caption>
                   <h5>Project 3 coming soon</h5>
                   <p>Will be available starting December.</p>

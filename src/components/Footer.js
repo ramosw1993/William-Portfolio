@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/Footer.css";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/Bs";
 
 
 // We use JSX curly braces to evaluate the style object
